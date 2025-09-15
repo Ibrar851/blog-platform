@@ -1,0 +1,61 @@
+/* custom.css */
+
+/* Global font */
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card styles */
+.card {
+  border-radius: 12px;
+  border: none;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Headings */
+h2, h3, h4, h5 {
+  font-weight: 600;
+  color: #222;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #0066ff;
+  border: none;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #0052cc;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Forms */
+.form-control {
+  border-radius: 8px;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+}
+
+/* Navbar */
+.navbar {
+  border-radius: 0;
+  padding: 0.8rem;
+}
+
+.navbar-dark .navbar-brand {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
